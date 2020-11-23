@@ -5,6 +5,8 @@ Esta es una aplicación web que permite codificar y decodificar un texto con un 
 
 A esta aplicación web se accede desde cualquier navegador de internet, aunque se recomienda preferentemente el uso de Chrome.
 
+Link para ingresar a la aplicacion : [https://maraveg.github.io/SCL015-cipher/src/index.html]
+
 #### Definición de Usuarios y Objetivos.
 
 Los principales usuarios de este producto son las mujeres. Mujeres que dentro de sus hogares sufren de abuso  físico y psicológico y que debido al constante acoso de su agresor, no cuentan con la privacidad suficiente al momento de buscar ayuda.
