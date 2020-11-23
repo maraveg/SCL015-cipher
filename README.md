@@ -1,4 +1,4 @@
-#“Encripta Tus Mensajes SOS”
+# “Encripta Tus Mensajes SOS”
 ##### Cuando no quieras que los demás lean tus mensajes ¡Codifícalos!
 
 Esta es una aplicación web que permite codificar y decodificar un texto con un número de desplazamiento elegido por el usuario.
