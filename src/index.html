@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;600;700&family=Noto+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id= "container">
+    <header id= "headerbox">
+      <div id="toptitle">
+        <div id="logo">
+        <img src="./62952-old-key-icon.png" width="50px" height="50px" alt="logo de llave">
+      </div>
+      <div id="title">
+        <h1 class="">Encripta tus mensajes SOS</h1>
+      </div>
+      <div id="p" >
+        <p>Cuando no quieres que los demás lean tus mensajes
+          ¡Codificalos!</p>
+      </div>
+      </div>
+</header>
+  <main>
+  <section id="formback">
+    <div id="instructions">
+      <h2>Ingresa un número del 1 al 100 y recuérdalo, esa será tu llave para decodificar.</h2>
+      <form action="" id="form1"></form>
+      <input type="number" min = "0" max = "100" id="number" placeholder="Numero">
+      <div id= "mostrar">
+      </div>
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+      <textarea class="textarea" name="text" id="usertext" cols="92" rows="6" autofocus placeholder="Ingresa aqui tu texto"></textarea>
+      <div id= "bottons">
+        <button class="btn" type="button" id="encode">Codificar</button>
+        <button class="btn" type="button" id="decode">Decodificar</button>
+      </div>
+      <textarea class="textarea" name="text" id="outtext" cols="92" rows="6" placeholder="Este es tu resultado"></textarea>
+      <div id="borrar">
+      <button type="button" id="delete">Borrar</button>
+    </div>
+  </section>
+</main>
+<script src="index.js" type="module"></script>
+</body>
+
 </html>
